@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>SHPE Management Development</title>
+  <link rel="Stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>SHPE<span>Management</span></div>
+		</div>
+		<br>
+		<div class="login">
+			<form >
+				<input type="text" placeholder="email or username" name="user"><br>
+				<input type="text" placeholder="first name" name="firstname" style="margin-top: 10px; width: 119px;">
+				<input type="text" placeholder="last name" name="lastname" style="margin-top: 10px; width: 119px;"><br>
+				<input type="text" list="positions" placeholder="position" style="margin-top: 10px;">
+				<datalist id="positions">
+ 				 	<option>President</option> 
+  					<option label="internal">Vice President</option> 
+  					<option label="external">Vice President</option> 
+  					<option>Webmaster</option>
+ 				 	<option>Treasurer</option> 
+				</datalist>
+				<input type="password" placeholder="password" name="password"><br>
+				<input type="password" placeholder="confirm password" name="password2"><br>
+				<input type="button" style="width: 260px;" value="Submit" onClick="parent.location='index.html'">
+			<form>
+		</div>
+
+  <script src='js/jquery.js'></script>
+
+</body>
+
+</html>
